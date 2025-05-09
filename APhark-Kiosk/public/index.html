@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APhark Pharmacy Kiosk</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>APhark Pharmacy Kiosk</h1>
+    <div id="medicine-list">
+      <h2>Available Medicines</h2>
+      <ul id="medicines"></ul>
+    </div>
+    <div id="cart-section">
+      <h2>Your Cart</h2>
+      <ul id="cart"></ul>
+      <button id="purchase-btn">Place Order</button>
+      <div id="purchase-result"></div>
+    </div>
+  </div>
+  <div id="receipt-modal" class="modal" style="display:none;">
+    <div class="modal-content">
+      <span id="close-receipt" class="close">&times;</span>
+      <pre id="receipt-text"></pre>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html> 
